@@ -1,0 +1,1 @@
+{"name":"invoice-fixture","private":true,"scripts":{"test":"node check-money.cjs"}}
