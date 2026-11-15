@@ -4,6 +4,14 @@ Date: 15 November 2026. Scope: one persona skill, six practical skills, portable
 
 This report preserves checks from earlier project stages. Historical references to research, packaging scripts, and ZIP files describe artifacts that are no longer included. The public repository keeps only `docs/`, `theo-skills/`, `.gitignore`, and `README.md`.
 
+## Reported Grok host failure
+
+[Issue #1](https://github.com/kriss-spy/digital-theo/issues/1) reports a live migration attempt against revision `80209bd` on 15 November 2026. All seven bot-scoped skill saves were rejected, including after direct owner confirmation. A separate supported profile-description update succeeded. No replacement skill was installed, so installed-reference reads and fresh-session behavior were not validated. The host version/build and root cause remain unknown.
+
+The [setup guide](../grok-bot-setup.md) now treats installation as conditional. The [troubleshooting record](../grok-bot-troubleshooting.md) preserves the exact error, separate partial states, scope constraints, and recovery criteria. The earlier statements below about no live test describe the original authoring stages, before this report arrived.
+
+This documentation update did not reproduce the host failure or perform another Bot install. It does not establish that app updates caused the rejection or that personal bot-only skills are universally unavailable.
+
 ## Structural validation
 
 The commands and paths in this section record the original rewrite before reorganization. Current skills live under `theo-skills/persona/` and `theo-skills/practical/`. Research now lives under `research/`, and the current ZIP is in `dist/`. See the reorganization checks below for current paths.

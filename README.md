@@ -9,7 +9,8 @@ theo-skills/
   persona/theo-persona/    # Voice, judgment, positions, and workflow routing
   practical/theo-*/       # Six executable workflows
 docs/
-  grok-bot-setup.md       # Documented setup and a suggested chat prompt
+  grok-bot-setup.md       # Capability checks and conditional setup
+  grok-bot-troubleshooting.md # Reported host failure and recovery criteria
   validation/             # Exercise reports and a reproducible fixture
 .gitignore
 README.md
@@ -34,7 +35,9 @@ Each skill folder contains `SKILL.md` and its own references. Practical skills a
 
 See [Grok Bot setup](docs/grok-bot-setup.md). `BOT-INSTRUCTIONS.md` was a project-specific filename from the earlier draft. It is not a documented Grok Bot configuration file and has been replaced by that guide.
 
-Current official docs describe defining a personal Bot's role in chat and asking it to remember lasting rules. They describe saving and invoking named skills separately. The guide includes those sources and distinguishes them from our suggested setup prompt.
+**The reported personal Bot installation is blocked.** [Issue #1](https://github.com/kriss-spy/digital-theo/issues/1) records rejected bot-only saves for all seven skills. A separate role update succeeded. The cause and any connection to recent app updates remain unresolved.
+
+Read [troubleshooting](docs/grok-bot-troubleshooting.md) before another attempt. The setup guide separates staging, role persistence, skill storage, reference reads, and runtime behavior. It does not promise a working current-host installation or substitute shared storage for a bot-only request.
 
 ## Use the files
 
@@ -44,4 +47,4 @@ Clone or download this repository and keep each skill folder's references togeth
 
 Each skill includes source references and distinguishes Theo's documented positions from adapted procedures. The source sample covers public material through 15 November 2026. Raw research and earlier drafts are not included.
 
-See the [validation record](docs/validation/REPORT.md) for structural checks and independent behavioral exercises. No live Grok installation, persona-fidelity comparison, or baseline performance comparison has been completed. No Bot account or global skill installation was changed.
+See the [validation record](docs/validation/REPORT.md) for structural checks and independent behavioral exercises. Issue #1 supplies a live failed installation report; no successful full Grok installation, persona-fidelity comparison, or baseline performance comparison has been completed. This repository update changed no Bot account or installed skills.
